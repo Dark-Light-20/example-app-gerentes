@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>ID</th>
+    <th>Nombre</th>
+    <th>Email</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let gerente of gerentes">
+      <td>{{gerente.ID}}</td>
+      <td>{{gerente.nombre}}</td>
+      <td>{{gerente.correo}}</td>
+    </tr>
+  </tbody>
+</table>

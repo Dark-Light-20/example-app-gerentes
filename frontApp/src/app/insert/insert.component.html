@@ -1,0 +1,10 @@
+<h2>Inserte nuevo gerente</h2>
+<form>
+  <h3>ID:</h3><input type="text" id="id">
+  <h3>Nombre:</h3><input type="text" id="name">
+  <h3>Correo:</h3><input type="text" id="email">
+  <br>
+  <button (click)="insert()" type="button">Insertar</button>
+</form>
+
+<h3 *ngIf="text !== ''">Respuesta: {{text}}</h3>
